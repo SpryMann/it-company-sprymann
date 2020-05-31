@@ -522,6 +522,9 @@ li {
 }
 
 @media screen and (max-width: 768px) {
+    .header {
+        height: calc(100vh + 150px);
+    }
 
     .offer__title {
         font-size: 44px;
@@ -611,9 +614,6 @@ li {
 }
 
 @media screen and (max-width: 576px) {
-    .header {
-        height: calc(100vh + 150px);
-    }
 
     .nav {
         width: auto;
