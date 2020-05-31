@@ -78,7 +78,6 @@ li {
 .header {
     background: url(../img/header-bg.jpg) center no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 
 .nav {
@@ -109,7 +108,8 @@ li {
 }
 
 .offer {
-    margin-top: 30%;
+    padding-top: 45%;
+    padding-bottom: 45%;
     text-align: center;
 }
 
@@ -522,9 +522,6 @@ li {
 }
 
 @media screen and (max-width: 768px) {
-    .header {
-        height: calc(100vh + 150px);
-    }
 
     .offer__title {
         font-size: 44px;
