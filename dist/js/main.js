@@ -1,3 +1,6 @@
+// import modules
+import smoothscroll from 'smoothscroll-polyfill';
+
 // link variables
 const nav = document.querySelector('.nav');
 const anchors = document.querySelectorAll('[href^="#"]');
@@ -25,14 +28,7 @@ nav.addEventListener('mouseout', event => {
 (function () {
     for (let anchor of anchors) {
         anchor.addEventListener('click', function (e) {
-            e.preventDefault()
-
-            const blockID = anchor.getAttribute('href')
-
-            document.querySelector(blockID).scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            })
+            smoothscroll.polyfill();
         })
     }
 }())

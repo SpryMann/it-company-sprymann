@@ -1,3 +1,11 @@
+html {
+    /* CSS custom property for the polyfill */
+    --scroll-behavior: smooth;
+
+    /* Normal CSS property for browsers with native support */
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
