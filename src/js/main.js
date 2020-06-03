@@ -1,5 +1,5 @@
 // import modules
-import smoothscroll from 'smoothscroll-polyfill';
+import smoothscroll from '/smoothscroll-polyfill';
 
 // link variables
 const nav = document.querySelector('.nav');

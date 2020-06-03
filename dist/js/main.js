@@ -1,10 +1,14 @@
 'use strict';
 
-var _smoothscrollPolyfill = require('smoothscroll-polyfill');
+var _smoothscrollPolyfill = require('../smoothscroll-polyfill');
 
 var _smoothscrollPolyfill2 = _interopRequireDefault(_smoothscrollPolyfill);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        default: obj
+    };
+}
 
 // link variables
 var nav = document.querySelector('.nav'); // import modules
