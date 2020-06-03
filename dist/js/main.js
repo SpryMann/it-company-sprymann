@@ -1,6 +1,6 @@
 'use strict';
 
-var _smoothscrollPolyfill = require('../smoothscroll-polyfill');
+var _smoothscrollPolyfill = require('smoothscroll-polyfill');
 
 var _smoothscrollPolyfill2 = _interopRequireDefault(_smoothscrollPolyfill);
 
